@@ -1,0 +1,16 @@
+﻿.centered {
+    text-align: center;
+}
+
+.large {
+    font-size: large;
+}
+
+.medium {
+    font-size: medium;
+    color: #0000ff;
+}
+
+.small {
+    font-size: small;
+}

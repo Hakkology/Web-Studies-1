@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        input[type=button]{
+            width : 200px;
+            height : 200px;
+            border: none;
+            font-size: 3em;
+            background : pink;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" onclick="Increment()" , value="+" />
+    <input type="button" onclick="Decrement()" , value="-" />
+    <input type="button" id="Result" , value="0" />
+
+    <script>
+        function Increment() {
+            var Result = document.getElementById("Result");
+            Result.value++;
+        }
+        function Decrement() {
+            var Result = document.getElementById("Result");
+            Result.value--;
+        }
+    </script>
+</body>
+</html>

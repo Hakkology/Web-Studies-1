@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="test">Click!</div>
+    <script>
+            //---------Ex1)
+        //function Greet() {
+        //    alert("Hello World!");
+        //}
+        //Greet();
+            //---------Ex2)
+        //function Greet(Name) {
+        //    alert("Hello" + " " + Name);
+        //}
+        //Greet("Hakan");
+            //---------Ex3)
+        //function GetYear() {
+        //    return (new Date()).getFullYear();
+        //}
+        //var year = GetYear();
+        //alert(year);
+            //---------Ex4)
+        //function SumNum(s1, s2) {
+        //    var Sum = s1 + s2;
+        //    return Sum;
+        //}
+        //var num1 = 120;
+        //var num2 = 150;
+        //var Result = SumNum(120, 150)
+        //alert(Result);
+            //---------Ex5)
+        //var square = x => x * x;
+        //window.alert(square(10));
+            //---------Ex6)
+        //var x = 5;
+        //if (x>100) {
+        //    alert("x value is larger than 100");
+        //}
+        //else if (x>0) {
+        //    alert("x value is smaller than 100");
+        //}
+        //else {
+        //    alert("x value is negative");
+        //}
+            //---------Ex7)
+        //for (var i = 0; i < 100; i++) {
+        //    document.writeln("Number" + i);
+        //}
+            //---------Ex8)
+        //for (var i = 0; i < 100; i++) {
+        //    if (i%2 == 0) {
+        //        document.writeln("Number" + " " + i);
+        //    }
+        //}
+            //---------Ex9)
+        //var message = prompt("Enter Message to be written");
+        //var number = prompt("Enter number of loops");
+        //for (var i = 0; i < parseInt(number); i++) {
+        //    document.write(message + "<br/>");
+        //}
+            //---------Ex10)
+        //var fruit = ["Apple", "Pear", "Cherry"]
+        //var i = 0;
+        //var write = "";
+        //while (fruit[i]) {
+        //    write += fruit[i] + "<br/>";
+        //    i++;
+        //}
+        //document.write(fruit);
+            //---------Ex11)
+        var object = document.getElementById("test");
+        object.addEventListener("click",
+        function (e) {
+            alert("Hello!");
+        }, false);
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="#" method="post">
+        <input type="button" id="save" value="Add Team" />
+    </form>
+    <input type="text" id="write" value="" />
+    <div id="show"></div>
+    <select id="team"></select>
+    <script>
+        var write = document.getElementById("write");
+        var save = document.getElementById("save");
+        var team = document.getElementById("team");
+        save.onclick = function (e) {
+            var newOpt = document.createElement("option");
+            newOpt.value = write.value;
+            newOpt.innerHTML = write.value;
+            team.add(newOpt);
+        }
+    </script>
+</body>
+</html>

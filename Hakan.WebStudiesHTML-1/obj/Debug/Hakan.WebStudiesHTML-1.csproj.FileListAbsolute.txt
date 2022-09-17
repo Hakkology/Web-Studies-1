@@ -1,0 +1,6 @@
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Web\Hakan\Hakan.WebStudiesHTML-1\bin\Debug\Hakan.WebStudiesHTML-1.dll
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Web\Hakan\Hakan.WebStudiesHTML-1\bin\Debug\Hakan.WebStudiesHTML-1.pdb
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Web\Hakan\Hakan.WebStudiesHTML-1\obj\Debug\Hakan.WebStudiesHTML-1.csproj.AssemblyReference.cache
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Web\Hakan\Hakan.WebStudiesHTML-1\obj\Debug\Hakan.WebStudiesHTML-1.csproj.CoreCompileInputs.cache
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Web\Hakan\Hakan.WebStudiesHTML-1\obj\Debug\Hakan.WebStudiesHTML-1.dll
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Web\Hakan\Hakan.WebStudiesHTML-1\obj\Debug\Hakan.WebStudiesHTML-1.pdb
