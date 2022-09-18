@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    Your message: <br />
+    <textarea rows="10" , id="write"></textarea>
+    <div id="result"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("#write").on('input', function () {
+                var max = 30;
+                $("#write").focus();
+                $("#write").val($("#write").val().substr(0, max));
+                var RemainingCharacters = max - $(this).val().length;
+                $("#result").text("Remaining Characters: " + RemainingCharacters);
+            });
+        });
+    </script>
+</body>
+</html>

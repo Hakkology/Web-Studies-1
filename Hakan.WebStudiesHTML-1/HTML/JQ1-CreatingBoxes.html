@@ -1,0 +1,28 @@
+﻿<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <button id="btn">Create</button>
+    <div id="container"></div>
+    <script>
+        var counter = 1;
+        $("#btn").click(function () {
+            var box = $("<div>");
+            box.addClass("box");
+            box.html("Box " + counter);
+            counter++;
+            box.css({
+                backgroundColor: "Red", width: "200px", height: "200px", textAlign: "center", margin: "10px", color: "white", lineHeight: "200px", fontSize: "30px"
+            });
+            $("#container").append(box);
+            box.on("click", function () {
+                $(this).remove();
+            });
+        });
+    </script>
+</body>
+</html>

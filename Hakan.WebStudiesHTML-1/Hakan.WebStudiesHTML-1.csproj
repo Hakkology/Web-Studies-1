@@ -44,7 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTML\Home.html" />
+    <Content Include="HTML\HTML5-Home.html" />
+    <Content Include="HTML\JQ2-TextArea.html" />
+    <Content Include="HTML\JQ1-CreatingBoxes.html" />
     <Content Include="HTML\JS0-Introduction.html" />
     <Content Include="HTML\JS5-Increment-Decrement.html" />
     <Content Include="HTML\JS4-Post.html" />
@@ -52,14 +54,14 @@
     <Content Include="HTML\JS2-Greet.html" />
     <Content Include="HTML\JS3-BackgroundColour.html" />
     <Content Include="HTML\JS6-TextCounter.html" />
-    <Content Include="HTML\Search.html" />
-    <Content Include="HTML\Responsiveness.html" />
-    <Content Include="HTML\Links.html" />
-    <Content Include="HTML\Stylesheet1.css" />
-    <Content Include="HTML\VideofromURL.html" />
-    <Content Include="HTML\VideoGebes.html" />
-    <Content Include="HTML\Table-Numbering.html" />
-    <Content Include="HTML\Image.html" />
+    <Content Include="HTML\HTML7-Search.html" />
+    <Content Include="HTML\HTML2-Responsiveness.html" />
+    <Content Include="HTML\HTML3-Links.html" />
+    <Content Include="HTML\CSS1-Stylesheet1.css" />
+    <Content Include="HTML\HTML1-VideofromURL.html" />
+    <Content Include="HTML\HTML6-VideoGebes.html" />
+    <Content Include="HTML\HTML4-Table-Numbering.html" />
+    <Content Include="HTML\HTML2-Image.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
